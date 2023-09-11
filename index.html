@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f4f0cf6a13.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class= "container"> 
+      <nav>
+        <h1><a href="#"><i class="fa-solid fa-snowflake"></i>Webdg.</a></h1>
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      <ul>
+      </nav>
+     <div class= "header-text">
+     <h1>Hello, I'm <span>Fathima</span></h1>
+     <p> web designer & developer</p>
+    </div>
+</div>
+</div>
+<!--------------------------ABOUT------------------------------>
+<div id="about">
+  <div class="container">
+      <div class="row"> 
+          <div class="about-col-1">
+               <img src= "picutre.jpg">
+          </div>
+          <div class="about-col-2">
+             <h1 class="sub-title">About Me</h1>
+             <p> I am Software engineer who loves to create websites.I love to design the beautiful webpages and websites.I think that people should look at the bigger picture when they are building something. I love to work in diverse environment, I stongly believe that the divirse workplace is an important asset,since it acknowledges the individual strengths of each employee and the potential they bring. Valuing the differences of others is what ultimately bring us all together and can be the secret to a successful,thriving workplace and a fair work culture.</p>
+                 <div class="tab-titles">
+                       <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                       <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="education">
+                  <ul>
+                      <li><span>2019</span><br>I completed my Secondry School Of Education at Ongole</li>
+                      <li><span>2021</span><br>I completed my Seniar Secondry School Of Education at Sri Chaitanya junior college</li>
+                     <li><span>2023</span><br>Currently Pursuing my Bachelor of technology at Rise Krishna Sai Gandhi Group Of Institutions</li>
+                  </ul>
+                 </div>
+                 <div class="tab-contents " id="skills">
+                       <ul>
+                           <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                           <li><span>Web Development</span><br>WEb app Development/portfolios/landing pages/Online code coverters.........</li>
+                       </ul>
+                  </div>
+                  
+          </div>
+      </div>
+  </div>
+</div>
+<!----------------------------CONTACT------------------------------->
+<div id="contact">
+  <div class="container">
+      <div class="row">
+          <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+               <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+               <div class="social-icons">
+                  <a href="https://www.linkedin.com/in/shaik-fathima"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://github.com/SkFathima"><i class="fa-brands fa-github"></i></a>
+               </div>
+          </div>   
+           <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+  </div>
+</div>
+  <div class="copyright">
+      <p>.........Copyright 2023<i class="fa-brands fa-react"></i>..........</p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body1>
+</html>
